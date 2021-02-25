@@ -1,0 +1,20 @@
+/*start green theme*/
+.option-box .gear-check,.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,.dropdown-menu .divider,.carousel-indicators .active{
+    background-color: #27ae60;
+}
+.dropdown-menu {
+    border-top: 2px solid #27ae60;
+}
+.option-box .color-options{
+    border: 2px solid #27ae60;
+}
+.navbar-inverse .navbar-brand > span,.about h1 > span,
+.features h2,.features .feat:hover,.testmonials h2,
+.testmonials span,.price-table h2,.subscribe h2,.statistics h2,.our-skills h2,.footer h2,.footer .copyright span,.our-team .team,.about-us .h1,.about-features .feature:hover{
+    color: #27ae60;
+}
+ 
+/*end green theme*/

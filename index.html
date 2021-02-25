@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-rtl.css">
+    <!--rtl-->
+    <link rel="stylesheet" href="css/rtl.css">
+     <!--main css-->
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/defaulttheme.css">
+     <!--font awesome-->
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" >
+     <link rel="stylesheet" href="css/hover-min.css">
+     <!--animate css-->
+     <link rel="stylesheet" href="css/animate.css">
+    <title>bootstrap 3 design 1</title>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+</head>
+<body>
+    <!--start option box-->
+    <section class="option-box">
+      <div class="color-options">
+        <h4>color options</h4>
+        <ul>
+          <li data-value="css/defaulttheme.css"></li>
+          <li data-value="css/redtheme.css"></li>
+          <li data-value="css/greentheme.css"></li>
+          <li data-value="css/orangetheme.css"></li>
+        </ul>
+      </div>
+      <i class="fas fa-cog fa-2x gear-check"></i>
+    </section>
+    <!--end option box-->
+    <!--start navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hvr-buzz-out" href="#"><span>omar</span> inc.</a>
+          </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav navbar-right">
+
+              <li class="active"><a href="index.html">home <span class="sr-only">(current)</span></a></li>
+
+              <li><a href="about.html">about</a></li>
+              <li><a href="faqs.html">faqs</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">web design</a></li>
+                  <li><a href="#">programming</a></li>
+                  <li><a href="#">desktop</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">web hosting</a></li>
+                </ul>
+              </li>
+              <li><a href="#">map</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    <!--end navbar-->
+    <!--start slide show-->
+    <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators hidden-xs">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/1.jpg" alt="...">
+            <div class="carousel-caption hidden-xs hidden-sm">
+              <h2 class="h1">web design</h2>
+              <p class="lead">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/2.jpg" alt="...">
+            <div class="carousel-caption hidden-xs hidden-sm">
+                <h2 class="h1">programming</h2>
+                <p class="lead">Computer programming is the process of designing and building an executable computer program to accomplish a specific computing result or to perform a specific task. </p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/3.jpg" alt="...">
+            <div class="carousel-caption hidden-xs hidden-sm">
+                <h2 class="h1">desktop</h2>
+                <p class="lead">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    <!--end slide show-->
+    <!--start about section-->
+    <section class="about text-center wow animate__bounceIn " data-wow-delay=".5s">
+      <div class="container">
+        <h1>meet our new template <span>omar inc.</span></h1>
+        <p class="lead">hello to our new template created with all the love with <strong>bootstrap v3</strong> </p>
+      </div>
+    </section>
+    <!--end about section-->
+    <!--start features section-->
+      <section class="features text-center">
+        <div class="container">
+          <h2>our features</h2>
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="feat wow animate__bounce">
+                <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> 
+                <h4>responsive</h4>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab natus earum magni, distinctio voluptas nostrum iusto vel iure quis laboriosam.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+              <div class="feat wow animate__wobble ">
+                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> 
+                <h4>retina ready</h4>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab natus earum magni, distinctio voluptas nostrum iusto vel iure quis laboriosam.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+              <div class="feat wow animate__bounceInUp ">
+                <span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> 
+                <h4>awesome display</h4>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab natus earum magni, distinctio voluptas nostrum iusto vel iure quis laboriosam.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ">
+              <div class="feat wow animate__bounceInRight ">
+                <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 
+                <h4>well documented</h4>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab natus earum magni, distinctio voluptas nostrum iusto vel iure quis laboriosam.</p>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+        </div>
+      </section>
+    <!--end features section-->
+    <!--start testmonials-->
+    <section class="testmonials text-center">
+      <div class="container">
+        <h2>what our clients say?</h2>
+        
+        <div id="carousel-testmonials" class="carousel slide " data-ride="carousel">
+          
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <p class="lead">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+              <span>omar mosaad</span>
+            </div>
+            <div class="item">
+                <p class="lead">
+                  Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.
+                </p>
+                <span>samy mohamed</span>
+            </div>
+            <div class="item">
+                <p class="lead">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization.</p>
+                <span>abdo ashraf</span>
+            </div>
+          </div>
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-testmonials" data-slide-to="0" class="active">
+              <img src="images/avatar.png" alt="">
+            </li>
+            <li data-target="#carousel-testmonials" data-slide-to="1">
+              <img src="images/avatar.png" alt="">
+            </li>
+            <li data-target="#carousel-testmonials" data-slide-to="2">
+              <img src="images/avatar.png" alt="">
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!--end testmonials-->
+    <!--start our prices-->
+    <section class="price-table text-center">
+      <div class="container">
+        <h2>our amazing prices</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="price-box wow animate__bounceInUp ">
+              <h3 class="text-primary">hosting</h3>
+              <p class="price center-block">40$</p>
+              <ul >
+                <li>space: 30GB</li>
+                <li>Emails: 20</li>
+                <li>Ips: 2 IP</li>
+                <li>Databases: 10</li>
+                <li>Ftp Accounts: 5</li>
+              </ul>
+              <button type="button" class="btn btn-primary">order now</button>
+            </div>
+            
+
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+              <h3 class="text-success">vps</h3>
+              <p class="price center-block">50$</p>
+              <ul>
+                <li>space: 50GB</li>
+                <li>Emails: 40</li>
+                <li>Ips: 5 IP</li>
+                <li>Databases: 20</li>
+                <li>Ftp Accounts: 10</li>
+              </ul>
+              <button type="button" class="btn btn-success">order now</button>
+            </div>
+            
+
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+              <h3 class="text-info">dedicated</h3>
+              <p class="price center-block">70$</p>
+              <ul>
+                <li>space: 80GB</li>
+                <li>Emails: 40</li>
+                <li>Ips: 8 IP</li>
+                <li>Databases: 30</li>
+                <li>Ftp Accounts: 20</li>
+              </ul>
+              <button type="button" class="btn btn-info">order now</button>
+            </div>
+            
+
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="price-box">
+              <h3 class="text-danger">cloud</h3>
+              <p class="price center-block">80$</p>
+              <ul>
+                <li>space: 90GB</li>
+                <li>Emails: 50</li>
+                <li>Ips: 10 IP</li>
+                <li>Databases: 50</li>
+                <li>Ftp Accounts: 50</li>
+              </ul>
+              <button type="button" class="btn btn-danger">order now</button>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end our prices-->
+    <!--start our team-->
+    <section class="our-team text-center">
+      <div class="overlay">
+        <div class="container">
+          <h2 class="team">our team</h2>
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 person">
+              <img src="images/chris.jpg" alt="">
+              <h2>chris coyier</h2>
+              <p>this is chris coyier the founder of the amazing website css-tricks</p>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 person">
+              <img src="images/1288053.jpg" alt="">
+              <h2>Steve Jobs</h2>
+              <p>This Is The Man Who Change The World With His Apple Products</p>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 person">
+              <img src="images/hacker.jpg" alt="">
+              <h2>Leah Culver</h2>
+              <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 person">
+              <img src="images/3100604853_f44dfaed43_z.jpg" alt="">
+              <h2>Marissa Mayer</h2>
+              <p>This Is Amazing Hacker Woman With A Much Knowledge In Hacking Systems</p>
+              <div class="social-icons">
+                <i class="fab fa-facebook-f fa-2x"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google-plus-g"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div class="clear-fix"></div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </section>
+    <!--end our team-->
+    <!--start subscribe section-->
+    <section class="subscribe text-center">
+      <div class="container">
+        <h2>keep in touch</h2>
+        <p class="lead">Sign Up For Newsletter Dont Worry About Spam We Hate It Too.</p>
+        <form method="POST" class="form-inline">
+          <input class="form-control" type="email" placeholder="write your email">
+          <button type="button" class="btn btn-danger"><i class="far fa-edit"></i>subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!--end subscribe section-->
+    <!--start statistics-->
+    <section class="statistics text-center">
+      <div class="overlay">
+        <div class="container">
+          <h2>our main statistics</h2>
+          <div class="row">
+            <div class="state col-lg-3 col-sm-6 col-xs-12 ">
+              <i class="fas fa-users fa-4x"></i>
+              <p>9,550</p>
+              <span>statisfied users</span>
+            </div>
+            <div class="state col-lg-3 col-sm-6 col-xs-12 ">
+              <i class="far fa-comments fa-4x"></i>
+              <p>25,600</p>
+              <span>Posted Comments</span>
+            </div>
+            <div class="state col-lg-3 col-sm-6 col-xs-12 ">
+              <i class="fas fa-briefcase fa-4x"></i>
+              <p>3,260</p>
+              <span>Projects Done</span>
+            </div>
+            <div class="state col-lg-3 col-sm-6 col-xs-12 ">
+              <i class="fas fa-cog fa-4x"></i>
+              <p>95,350</p>
+              <span>Tickets Archieved</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end statistics-->
+    <!--start our skills-->
+    <section class="our-skills text-center">
+      <div class="container">
+        <h2>our skills</h2>
+        <div class="col-lg-5 col-md-5 col-sm-6 ">
+
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                html5/css3 80%
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70% ">
+                javascript/jquery 70%
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar progress-bar-info"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+                photoshop/illustrator 75%
+              </div>
+            </div>
+          </div>
+
+          <div class="skills-progress">
+            <div class="progress">
+              <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+                wordpress 65%
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="clear-fix"></div>
+        <div class="col-lg-6-offset-1 col-md-6 col-md-offset-1 col-sm-6 about">
+          <h2>about the team</h2>
+          <p class="lead">We Are Specialised Desiging And Programming Team Passionate About Web Design And Creatin Digital Ideas We Will Transfer Your Idea To A Digital Dream And Make Your Wish Come True</p>
+          <button type="button" class="btn btn-primary">talk with a professional</button>
+        </div>
+        <div class="clear-fix"></div>
+      </div>
+    </section>
+    <!--end our skills-->
+    <!--start contact us-->
+    <div class="contact text-center">
+      <div class="overlay">
+        <div class="container">
+          <i class="fas fa-file-signature fa-4x"></i>
+          <h2>Tell Us What You Fell</h2>
+          <p class="lead">Feel Free To Contact Us Anytime</p>
+          <div class="row">
+            <div class="col-lg-6">
+              <form >
+                <div class="form-group">
+                  <input class="form-control input-lg" type="text" name="username" placeholder="username">
+                  
+                </div>
+                <div class="form-group">
+                  <input class="form-control input-lg" type="email" name="email" placeholder="email">
+                  
+                </div>
+                <div class="form-group">
+                  <input class="form-control input-lg" type="number" name="phone" placeholder="phone">
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                  <textarea class="form-control" name="message"  cols="50" rows="5" placeholder="your message"></textarea>
+              </div>
+              
+                <button type="button" class="btn btn-primary btn-block btn-lg">contact us</button>
+             
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end contact us-->
+    <!--start our clients-->
+    <div class="our-clients">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <li class="col-md-2 col-xs-4">BBC</li>
+            <li class="col-md-2 col-xs-4">CNN</li>
+            <li class="col-md-2 col-xs-4">Forbes</li>
+            <li class="col-md-2 col-xs-4">Wired</li>
+            <li class="col-md-2 col-xs-4">WSJ</li>
+            <li class="col-md-2 col-xs-4">Techrader</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--end our clients-->
+    <!--start footer-->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <h2>Sitemap</h2>
+            <ul class="three-cols">
+              <li>home</li>
+              <li>about</li>
+              <li>company</li>
+              <li>code</li>
+              <li>design</li>
+              <li>host</li>
+              <li>solutions</li>
+              <li>site map</li>
+              <li>contact</li>
+            </ul>
+            <div class="social-icons">
+              <i class="fab fa-facebook-square fa-3x"></i>
+                <i class="fab fa-twitter-square fa-3x"></i>
+                <i class="fab fa-google-plus-square fa-3x"></i>
+                <i class="fab fa-youtube-square fa-3x"></i>
+                <i class="fab fa-pinterest-square fa-3x"></i>
+                <i class="fas fa-envelope-square fa-3x"></i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <h2>Latest Articles</h2>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/1.jpg" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">programming</h4>
+                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/2.jpg" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">coding</h4>
+                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+              </div>
+            </div>
+
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img class="media-object" src="images/3.jpg" alt="...">
+                </a>
+              </div>
+              <div class="media-body">
+                <h4 class="media-heading">web design</h4>
+                This Is Some Text About Programming Describe The Media Of Bootstrap 3.2.0
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-4 col-sm-12 work">
+            <h2>Our Awesome Work</h2>
+            <img class="img-thumbnail" src="images/1.jpg" alt="">
+            <img class="img-thumbnail" src="images/2.jpg" alt="">
+            <img class="img-thumbnail" src="images/3.jpg" alt="">
+            <img class="img-thumbnail" src="images/1.jpg" alt="">
+          </div>
+        </div>
+        
+      </div>
+      <div class="copyright text-center">
+        copyright &copy; 2020 <span>omar</span> inc.
+      </div>
+    </section>
+    <!--end footer-->
+    
+    <!--start loading section-->
+    <div class="loading-overlay">
+      <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    </div>
+    <!--end loading section-->
+    <!--start  scroll to top section-->
+    <div class="scroll">
+      <i class="fas fa-arrow-circle-up fa-3x"></i>
+    </div>
+    <!--end  scroll to top section-->
+    <!--jquery script-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!--bootstrap script-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--main script-->
+    <script src="js/script.js"></script>
+    <!--wow js-->
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
+    <!--nice scroll-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+</body>
+</html>
